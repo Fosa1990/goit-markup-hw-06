@@ -1077,34 +1077,3 @@ ul {
   fill: currentColor;
 }
 /* ============================== Modal Window END ==============================  */
-/* =============== TEST START =============== */
-
-/* =============== TEST END =============== */
-
-/* Кубик: cubic-bezier(0.4, 0, 0.2, 1) */
-/* Время 250ms */
-
-/* .test{
-transition-property: властивість;
-transition-duration: час;
-transition-timing-function: функція розподілу часу;
-transition-delay: затримка;
-} */
-
-/* .test-animation {
-  animation: [name] [duration] [timing-function] [delay] [iteration-count]
-    [direction] [fill-mode] [play-state];
-} */
-
-/* 03-underline.css  */
-/* .i {
-  opacity: 0;
-  transform: scaleX(0);
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.i:hover::after {
-  opacity: 1;
-  transform: scaleX(1);
-} */
