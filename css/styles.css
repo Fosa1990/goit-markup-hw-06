@@ -782,7 +782,7 @@ ul {
 
   color: var(--third-text-color);
 }
-/* <Input> */
+/* <Input> Поле "подписаться" */
 .subscription-input {
   display: flex;
   align-items: center;
@@ -801,6 +801,13 @@ ul {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+
+  outline: none;
+
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.subscription-input:focus {
+  border-color: var(--main-accent-color);
 }
 /* <Button> Кнопка "принятия спама" */
 .subscription-button {
