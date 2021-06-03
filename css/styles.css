@@ -1045,6 +1045,10 @@ ul {
   background-size: contain;
   background-origin: border-box;
 }
+/* <Icon-checkbox> Фокус на чекбос (Таб) */
+.checkbox:focus + .icon-checkbox {
+  border-color: var(--main-accent-color);
+}
 /* <SVG> form-icon */
 .form-icon {
   position: absolute;
